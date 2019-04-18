@@ -1,0 +1,23 @@
+﻿Location,Provider,VM,Size,Volume Type,Read IOPS,Write IOPS,Read Bandwidth,Write Bandwidth
+Worldwide,1&1,M,50,SSD,175077,26983,613,264
+Worldwide,1&1,S,50,SSD,180611,33262,614,501
+Worldwide,Google Cloud Platform,n1-standard-1 Intel Broadwell,30,SSD Persistent Disk,2611,1697,41,41
+Worldwide,Google Cloud Platform,n1-standard-1 Intel Broadwell,50,SSD Persistent Disk,2611,2489,41,42
+Worldwide,Microsoft Azure,Basic_A0 ,50,No cache Standard LRS,501,503,60,59
+Worldwide,Microsoft Azure,Basic_A1,50,No cache Standard LRS,504,501,59,59
+Worldwide,Microsoft Azure,Standard_A0,30,No cache Standard LRS,679,113,123,41
+Worldwide,Microsoft Azure,Standard_A0,50,No cache Standard LRS,503,500,60,59
+Worldwide,Microsoft Azure,Standard_A1,50,No cache Standard LRS,503,500,59,59
+Worldwide,Microsoft Azure,Standard_A1,30,No cache Standard LRS,688,109,198,42
+Worldwide,Microsoft Azure,Standard_D 1,50,No cache Standard LRS,505,504,60,59
+Worldwide,Microsoft Azure,Standard_D 1_v2,50,No cache Standard LRS,504,501,60,59
+Worldwide,Microsoft Azure,Standard_D 1_v2,30,No cache Standard LRS,674,114,196,21
+Worldwide,Microsoft Azure,Standard_D S1,30,No cache Standard LRS,1985,228,32,31
+Worldwide,Microsoft Azure,Standard_D S1,50,No cache Standard LRS,510,509,31,31
+NA,Microsoft Azure,Standard_D S1_v2,30,No cache Standard LRS,2021,245,33,32
+NA,Microsoft Azure,Standard_D S1_v2,50,No cache Standard LRS,510,509,47,46
+NA,Microsoft Azure,Standard_F 1,50,No cache Standard LRS,504,504,60,60
+NA,Microsoft Azure,Standard_F 1s,30,No cache Premium LRS,2026,340,33,24
+NA,Microsoft Azure,Standard_F 1s,50,No cache Premium LRS,243,242,32,32
+Worldwide,OVH Group,S1-2,50,High Speed,3054,3035,719,441
+Worldwide,OVH Group,s1-4,50,High Speed,3054,3036,655,432

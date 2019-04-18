@@ -1,0 +1,87 @@
+﻿Location,Provider,Category,VM,CPU,RAM (GB),Single Score,Multi Score,Price,Price Score
+Worldwide,1&1,General Purpose,M,1,1,2298,2963,0.013,2202
+NA,1&1,General Purpose,M,1,1,2998,2863,0.013,2202
+Worldwide,1&1,General Purpose,S,1,0.5,2919,2794,0.007,3978
+NA,1&1,General Purpose,S,1,0.5,2919,2794,0.007,3978
+Worldwide,Amazon Web Services,Burstable Performance,t2.micro,1,1,3259,3106,0.012,2588
+NA,Amazon Web Services,Burstable Performance,t2.micro,1,1,3259,3106,0.012,2588
+Worldwide,Amazon Web Services,Burstable Performance,t2.small,1,2,3264,3117,0.023,1355
+NA,Amazon Web Services,Burstable Performance,t2.small,1,2,3264,3117,0.023,1355
+Worldwide,DigitalOcean,General Purpose,1CPU 1GB,1,1,2428,2311,0.015,1540
+NA,DigitalOcean,General Purpose,1CPU 1GB,1,1,2428,2311,0.015,1540
+Worldwide,DigitalOcean,,High Memory 1CPU 8GB,1,7.8,2365,2240,,
+NA,DigitalOcean,,High Memory 1CPU 8GB,1,7.8,2365,2240,,
+NA,DigitalOcean,General Purpose,Standard 1CPU 1GB,1,1,3604,3481,0.007,4974
+Worldwide,DigitalOcean,General Purpose,Standard 1CPU 1GB,1,1,2869,2743,0.007,3919
+NA,DigitalOcean,General Purpose,Standard 1CPU 2GB,1,2,3521,3403,0.015,2268
+Worldwide,DigitalOcean,General Purpose,Standard 1CPU 2GB,1,2,3059,2927,0.015,1951
+NA,DigitalOcean,General Purpose,Standard 1CPU 3GB,1,3,2609,2528,0.022,1149
+Worldwide,DigitalOcean,General Purpose,Standard 1CPU 3GB,1,3,3040,2913,0.022,1324
+Worldwide,Exoscale,General Purpose,Tiny,1,1,4196,4000,0.013,3453
+Worldwide,Google Cloud Platform,Tiny,g1-small Intel Skylake,1,1.7,3057,2954,0.027,1094
+NA,Google Cloud Platform,Tiny,g1-small Intel Skylake,1,1.7,3124,3001,0.027,1111
+Worldwide,Google Cloud Platform,General Purpose,n1-standard-1 Intel Broadwell,1,3.8,2977,2914,0.048,607
+NA,Google Cloud Platform,General Purpose,n1-standard-1 Intel Broadwell,1,3.8,2977,2914,0.048,607
+Worldwide,Google Cloud Platform,General Purpose,n1-standard-1 Intel Skylake,1,3.8,2995,2899,0.048,604
+NA,Google Cloud Platform,General Purpose,n1-standard-1 Intel Skylake,1,3.8,2949,2862,0.048,596
+Worldwide,IBM Softlayer,General Purpose,1 Cores 1GB,1,1,2852,2785,0.039,714
+NA,IBM Softlayer,General Purpose,1 Cores 1GB,1,1,2852,2785,0.039,714
+Worldwide,IBM Softlayer,General Purpose,1 Cores 2 GB,1,2,2818,2747,0.043,638
+NA,IBM Softlayer,General Purpose,1 Cores 2 GB,1,2,2818,2747,0.043,638
+Worldwide,IBM Softlayer,General Purpose,1 Cores 4 GB,1,4,2793,2713,0.034,798
+NA,IBM Softlayer,General Purpose,1 Cores 4 GB,1,4,2793,2713,0.034,798
+Worldwide,Joyent,General Purpose,g4-general 4G,1,4,2884,7302,0.07,1043
+NA,Joyent,General Purpose,g4-general 4G,1,4,3070,8211,0.07,1173
+Worldwide,Joyent,Compute optimized,g4-highcpu-2G,1,2,2459,2489,,
+NA,Joyent,Compute optimized,g4-highcpu-2G,1,2,2472,2722,,
+Worldwide,Joyent,General Purpose,k4-general-kvm-3.75G,1,3.8,3287,2889,0.08,361
+NA,Joyent,General Purpose,k4-general-kvm-3.75G,1,3.8,3106,2664,0.08,333
+Worldwide,Joyent,Compute optimized,k4-highcpu-kvm 1.75G,1,1.8,3687,3540,,
+NA,Joyent,Compute optimized,k4-highcpu-kvm 1.75G,1,1.8,3216,2702,,
+Worldwide,Linode,Memory optimized,Linode 24GB,1,24,2265,2185,0.09,242
+NA,Linode,Memory optimized,Linode 24GB,1,24,2265,2185,0.09,242
+Worldwide,Linode,General Purpose,Linode 2GB,1,2,3049,2929,0.015,1952
+NA,Linode,General Purpose,Linode 2GB,1,2,3079,2929,0.015,1952
+Worldwide,Linode,Tiny,Nanode 1 GB,1,1,2843,2726,0.008,3407
+NA,Linode,Tiny,Nanode 1 GB,1,1,2843,2726,0.0088,3407
+Worldwide,Microsoft Azure,General Purpose,Basic-A1,1,1.8,878,849,,
+NA,Microsoft Azure,General Purpose,Basic-A1,1,1.8,878,849,,
+Worldwide,Microsoft Azure,General Purpose,Standard A-1,1,1.8,1248,1208,0.051,236
+NA,Microsoft Azure,General Purpose,Standard A-1,1,1.8,1248,1208,0.051,236
+NA,Microsoft Azure,General Purpose,Standard A-1_v2,1,2,1264,1226,0.036,340
+Worldwide,Microsoft Azure,General Purpose,Standard A_1_v2,1,2,1242,1199,,
+Worldwide,Microsoft Azure,Burstable Performance,Standard_B 1ms,1,2,3063,2958,,
+NA,Microsoft Azure,Burstable Performance,Standard_B 1ms,1,2,3097,2993,,
+Worldwide,Microsoft Azure,Burstable Performance,Standard_B 1s,1,1,3080,2875,,
+NA,Microsoft Azure,Burstable Performance,Standard_B 1s,1,1,3095,2900,,
+Worldwide,Microsoft Azure,General Purpose,Standard_D 1,1,3.5,2122,2045,0.067,305
+NA,Microsoft Azure,General Purpose,Standard_D 1,1,3.5,2113,2036,0.067,304
+Worldwide,Microsoft Azure,General Purpose,Standard_D 1_v2,1,3.5,3050,2940,0.057,515
+NA,Microsoft Azure,General Purpose,Standard_D 1_v2,1,3.5,3222,3107,0.057,545
+Worldwide,Microsoft Azure,General Purpose,Standard_D S1,1,3.5,2074,2000,,
+NA,Microsoft Azure,General Purpose,Standard_D S1,1,3.5,2074,2000,,
+Worldwide,Microsoft Azure,General Purpose,Standard_D S1_v2,1,3.5,3328,3227,0.057,566
+NA,Microsoft Azure,General Purpose,Standard_D S1_v2,1,3.5,3328,3227,0.057,566
+NA,Microsoft Azure,Compute optimized,Standard_F 1,1,2,3173,3043,,
+Worldwide,Microsoft Azure,Compute optimized,Standard_F 1,1,2,3173,3043,,
+NA,Microsoft Azure,Compute optimized,Standard_F 1s,1,2,3476,3252,,
+Worldwide,Microsoft Azure,Compute optimized,Standard_F 1s,1,2,3476,3252,,
+Worldwide,OVH Group,Tiny,S1-2,1,2,2965,2818,,
+NA,OVH Group,Tiny,S1-2,1,2,3025,2866,,
+Worldwide,OVH Group,Tiny,S1-4,1,3.9,2938,2810,,
+NA,OVH Group,Tiny,S1-4,1,3.9,3035,2894,,
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,c1.medium,1,1,2353,2230,0.014,1807
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,c2.medium,1,2,2276,2213,0.021,1203
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,s1.medium,1,4,2229,2133,0.046,523
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,s2.medium.1,1,1,2972,2818,,
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,s2.medium.2,1,2,2938,2817,,
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,s2.medium.4,1,4,2904,2794,,
+Worldwide,T-Systems Open Telekom Cloud,General Purpose,s2.medium.8,1,8,2890,2781,,
+Worldwide,UpCloud,General Purpose,1xCPU-1GB,1,1,3386,3268,0.007,4669
+NA,UpCloud,General Purpose,1xCPU-1GB,1,1,3003,2919,0.007,4171
+Worldwide,UpCloud,General Purpose,1xCPU-2GB,1,2,3445,3315,0.015,2210
+NA,UpCloud,General Purpose,1xCPU-2GB,1,2,3024,2908,0.015,1938
+NA,Vultr,General Purpose,1CPU 1024MB SSD,1,1,2932,2820,0.007,4029
+Worldwide,Vultr,General Purpose,1CPU 1024MB SSD,1,1,3154,3027,0.007,4325
+NA,Vultr,General Purpose,1CPU 2048MB SSD,1,2,3749,3665,0.015,2443
+Worldwide,Vultr,General Purpose,1CPU 2048MB SSD,1,2,3628,3532,0.015,2355
