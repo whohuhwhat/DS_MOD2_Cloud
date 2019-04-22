@@ -60,7 +60,9 @@ The Y and Fitted vs X show that there is a linear relationship between RAM and p
 ![residplot](https://user-images.githubusercontent.com/30739929/56516092-975ad680-6507-11e9-9d01-3875d0518b65.png)
 
 and plotted the residuals.
+
 ![resid](https://user-images.githubusercontent.com/30739929/56502183-8007f300-64df-11e9-9640-97a59e7025b4.png)
+
 The residuals follow the line pretty closely, showing that the residuals are normally distributed.  
 
 
