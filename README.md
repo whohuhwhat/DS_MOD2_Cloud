@@ -66,7 +66,7 @@ and plotted the residuals in a quantiles.
 The residuals follow the line pretty closely, showing that the residuals are normally distributed.  
 
 
-
+### Interactions?
 
 I finally plotted interactions to see if there are differences between vendors while looking at price and single core performance.  The lines are not additive and there are interactions.
 
