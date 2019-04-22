@@ -15,10 +15,12 @@ I first took a look at the distribution of data
 ![distribution - price](https://user-images.githubusercontent.com/30739929/56484475-c4729f00-649d-11e9-9c20-357ae5cbbeb6.png)
 
 Using Seaborn, I graphed the mean single score by provider and the mean multi score by provider
+
 ![bar - provider vs single](https://user-images.githubusercontent.com/30739929/56484630-888c0980-649e-11e9-9968-456e3fb671ed.png)
 ![bar - provider vs multi](https://user-images.githubusercontent.com/30739929/56484635-8e81ea80-649e-11e9-8d43-8c74cdcdcfac.png)
 
 I analyzed the data to see if they were significantly different.
+
 
 <img width="829" alt="performance scores" src="https://user-images.githubusercontent.com/30739929/56484783-43b4a280-649f-11e9-9935-01c229577a68.png">
 The difference between AWS and Google Cloud returned a P-Value of 7.217.  The difference between them are not statistically significant.  I then compared the provider with the highest performance score, Vultr, with the provider with the lowest performance score, Microsoft Azure, and found that while the P-Value was much lower at 0.067, the difference between them was still not statistically different.
@@ -43,19 +45,24 @@ I added dummy variables of each provider and after checking for multicolinearity
 
 <img width="551" alt="model dummy variables" src="https://user-images.githubusercontent.com/30739929/56501839-45ea2180-64de-11e9-9c89-ccf1672de48a.png">
 
-This returned a r-squared value of 0.942.  With this model I made regression plots
+This returned a r-squared value of 0.942.  With this model I made regression plots.
+
 ![regression](https://user-images.githubusercontent.com/30739929/56501974-cc9efe80-64de-11e9-8dad-3a34f2358720.png)
 
-and plotted the residuals
+and plotted the residuals.
+
 ![resid](https://user-images.githubusercontent.com/30739929/56502183-8007f300-64df-11e9-9640-97a59e7025b4.png)
 
 
 I finally plotted interactions to see if there are differences between vendors while looking at price and single core performance.
+
 ![interactions - price vs single](https://user-images.githubusercontent.com/30739929/56502364-04f30c80-64e0-11e9-87e6-9e4531621142.png)
+
 We can see that Azure has the lowest performance score but starts at the highest price.  Azure then approaches the performance score of Amazon and Google, but at a much higher price.  Amazon is the cheapest of the 3 providers and its performance stays same.  
 
 I also plotted interactions to see if there are differences between vendors while looking at price and amount of RAM.
 ![interactions - ram vs price](https://user-images.githubusercontent.com/30739929/56502365-04f30c80-64e0-11e9-908e-3c0c4e685672.png)
+
 Azure again starts off at the highest price point but of the three vendors, it also offers the highest amount of RAM.  Amazon is the cheapest of the options but offers the least amount of RAM.
 
 
