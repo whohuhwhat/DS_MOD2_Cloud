@@ -51,15 +51,19 @@ I added dummy variables of each provider and after checking for multicolinearity
 
 <img width="551" alt="model dummy variables" src="https://user-images.githubusercontent.com/30739929/56501839-45ea2180-64de-11e9-9c89-ccf1672de48a.png">
 
-This returned a r-squared value of 0.942.  With this model I made regression plots.
+This returned a r-squared value of 0.942 which shows that the predictive model fits the line.  With this model I made regression plots.
 
 ![regression](https://user-images.githubusercontent.com/30739929/56501974-cc9efe80-64de-11e9-8dad-3a34f2358720.png)
 
-and plotted the residuals.
-
-![resid](https://user-images.githubusercontent.com/30739929/56502183-8007f300-64df-11e9-9640-97a59e7025b4.png)
+The Y and Fitted vs X show that there is a linear relationship between RAM and price.  The residual plot shows that the data is homoscedastic, which means they have the same variance.
 
 ![residplot](https://user-images.githubusercontent.com/30739929/56516092-975ad680-6507-11e9-9d01-3875d0518b65.png)
+
+and plotted the residuals.
+![resid](https://user-images.githubusercontent.com/30739929/56502183-8007f300-64df-11e9-9640-97a59e7025b4.png)
+The residuals follow the line pretty closely, showing that the residuals are normally distributed.  
+
+
 
 
 I finally plotted interactions to see if there are differences between vendors while looking at price and single core performance.  The lines are not additive and there are interactions.
