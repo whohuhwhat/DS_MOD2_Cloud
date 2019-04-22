@@ -59,4 +59,4 @@ I also plotted interactions to see if there are differences between vendors whil
 Azure again starts off at the highest price point but of the three vendors, it also offers the highest amount of RAM.  Amazon is the cheapest of the options but offers the least amount of RAM.
 
 
-In conclusion, the differences between the performances of cloud providers were not statistically different.  
+In conclusion, the differences between the performances of cloud providers were not statistically different.  Interactions showed how different vendors had different starting price points.
