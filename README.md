@@ -55,11 +55,11 @@ This returned a r-squared value of 0.942 which shows that the predictive model f
 
 ![regression](https://user-images.githubusercontent.com/30739929/56501974-cc9efe80-64de-11e9-8dad-3a34f2358720.png)
 
-The Y and Fitted vs X show that there is a linear relationship between RAM and price.  The residual plot shows that the data is homoscedastic, which means they have the same variance.
+The Y and Fitted vs X show that there is a positive linear relationship between RAM and price.  The residual plot shows that the data is homoscedastic, which means they have the same variance.
 
 ![residplot](https://user-images.githubusercontent.com/30739929/56516092-975ad680-6507-11e9-9d01-3875d0518b65.png)
 
-and plotted the residuals.
+and plotted the residuals in a quantiles.
 
 ![resid](https://user-images.githubusercontent.com/30739929/56502183-8007f300-64df-11e9-9640-97a59e7025b4.png)
 
